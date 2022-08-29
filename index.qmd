@@ -1,0 +1,22 @@
+---
+title: "MS-DIAL4　チュートリアル"
+author:
+  - name: 津川裕司
+    email: htsugawa@go.tuat.ac.jp
+---
+ 
+<div style="text-align: right;">
+最終編集日：2019年10月1日
+</div>
+
+## はじめに
+MS-DIALは、ノンターゲット・メタボローム解析のためのユニバーサル・ツールであり、複数の機器（GC/MS、GC/MS/MS、LC/MS、LC/MS/MS）および複数のMSベンダー（Agilent、Bruker、LECO、Sciex、 Shimadzu、Thermo、およびWaters）に対応しています。このプログラムでは、netCDF（AIA）やmzMLなどの一般的なデータ形式を扱うことができます。さらに、EIスペクトルやMS/MSスペクトルを含むいくつかのMSPファイルをスタートアップ・キットとしてリリースしています。また、MS-DIALの内部には、FiehnラボのGC/MSデータベース（FAME RIインデックスに基づく）と、LC/MS/MSベースのリピドミクス用のin silico保持時間およびMS/MSデータベースがあります。同位体ラベル付き追跡は、LC/MSプロジェクトでも実行できます。  
+&emsp;&emsp;&emsp;MS-DIALの特徴は、（1）GC/MSとデータインディペンデントのMS/MSの両方を対象としたスペクトルデコンボリューション、（2）ピーク識別の合理化された基準、（3）生データのインポートから統計分析までのすべてのデータ処理ステップのサポート、および（4） ユーザーフレンドリーなグラフィックユーザーインターフェース（GUI）です。  
+&emsp;&emsp;&emsp;MS-DIALは、JST/NSF SICORP「低炭素社会のためのメタボロミクス」プロジェクトの支援を受けて、有田正規教授のチーム（理研）とOliver Fiehn教授のチーム（UC Davis）との共同研究として開発されました。  
+
+Lead developer: Hiroshi Tsugawa (RIKEN)   
+Main contributors: Diego Pedrosa (UC Davis), Tomas Cajka (Institute of Physiology CAS), Ipputa Tada (NIG), Haruki Uchino (Keio)  
+
+![alt](images/image_1.png)
+MS-DIAL screenshot  
+<br />
